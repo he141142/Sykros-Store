@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@800&display=swap');
+
+.nav-item.dropdown .dropdown-menu.show{
+        color: red;    
+}
+
+.sub-it a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.sub-it{
+    display: flex;
+    align-items:  flex-end;
+    justify-content: center;
+}
+
+.sub-it:nth-child(1){
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sub-it:nth-child(2){
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+.item-custom.nav-item.show.dropdown
+> .dropdown-menu.show{
+position: absolute;
+left: 0;
+text-align: center;
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+margin-top: calc(-1 * var(--bs-gutter-y));
+margin-right: calc(-.5 * var(--bs-gutter-x));
+margin-left: calc(-.5 * var(--bs-gutter-x));
+padding: 0 !important;
+font-family: 'Bebas Neue', cursive;
+}
+
+
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Roboto Slab', serif;
