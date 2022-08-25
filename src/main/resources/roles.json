@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ADMIN",
+    "description": "admin control the system",
+    "authorities": 100
+  },
+  {
+    "name": "USER",
+    "description": "Base role for authentication, basic service",
+    "authorities": 50
+  },
+  {
+    "name": "PUBLISHER",
+    "description": "Control and manage their own books",
+    "authorities": 50
+
+  },
+  {
+    "name": "CUSTOMER",
+    "description": "Service for customer",
+    "authorities": 70
+  },
+  {
+    "name": "AUTHOR",
+    "description": "Support this role in the future",
+    "authorities": 70
+  },
+  {
+    "name": "GUEST",
+    "description": "Limit the feature by user have this role",
+    "authorities": 20
+  }
+]

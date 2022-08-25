@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "cust",
+      "type": "com.example.sykrosstore.Config.CustomConfig",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig"
+    },
+    {
+      "name": "cust.datasource",
+      "type": "com.example.sykrosstore.Config.CustomConfig$Datasource",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig",
+      "sourceMethod": "getDatasource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cust.datasource.MYSQL_PORT",
+      "type": "java.lang.String",
+      "description": "Description for cust.datasource.MYSQL_PORT.",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig$Datasource"
+    },
+    {
+      "name": "cust.datasource.MYSQL_HOST",
+      "type": "java.lang.String",
+      "description": "Description for cust.datasource.MYSQL_PORT.",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig$Datasource"
+    },
+    {
+      "name": "cust.datasource.MYSQL_DATABASE",
+      "type": "java.lang.String",
+      "description": "Description for cust.datasource.MYSQL_PORT.",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig$Datasource"
+    },
+    {
+      "name": "cust.datasource.MYSQL_USER",
+      "type": "java.lang.String",
+      "description": "Description for cust.datasource.MYSQL_PORT.",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig$Datasource"
+    },
+    {
+      "name": "cust.datasource.MYSQL_PASS",
+      "type": "java.lang.String",
+      "description": "Description for cust.datasource.MYSQL_PORT.",
+      "sourceType": "com.example.sykrosstore.Config.CustomConfig$Datasource"
+    },
+    {
+      "name": "sykos.sampleBook.resource",
+      "type": "java.lang.String",
+      "description": "Description for sykos.sampleBook.resource."
+    }
+  ]
+}

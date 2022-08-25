@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <title>PolluxUI Admin</title>
+  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"
+      rel="stylesheet">
+
+
+  <!-- base:css -->
+  <link href="/Admin/vendors/typicons/typicons.css" rel="stylesheet">
+  <link href="/Admin/vendors/css/vendor.bundle.base.css" rel="stylesheet">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link href="/Admin/css/vertical-layout-light/style.css" rel="stylesheet">
+  <!-- endinject -->
+  <link href="/Admin/images/favicon.png" rel="shortcut icon"/>
+  <script>
+    var _rollbarConfig = {
+      accessToken: '00d1a7c1f8fc48b0bf33b2669c7469eb',
+      captureUncaught: true,
+      captureUnhandledRejections: true,
+      payload: {
+        environment: 'production',
+        //context: 'home/index',
+        //trace_id: 'abc123',
+        client: {
+          javascript: {
+            code_version: '1.0.0',
+            //source_map_enabled: true,
+            //guess_uncaught_frames: true
+          }
+        }
+      }
+    };
+    // Rollbar Snippet
+    !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.24.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+    // End Rollbar Snippet
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+    #NoGenresLoaded {
+      margin: 12em;
+      text-align: center;
+    }
+
+    #NoGenresLoaded b {
+      font-size: 2em;
+    }
+
+    #NoGenresLoaded p {
+      font-size: 1.5em;
+    }
+
+    /*config button*/
+    .linear-gradient * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .btn_cd {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+
+    .btn_cd a {
+      position: relative;
+      display: inline-block;
+      padding: 25px 30px;
+      color: #03e9f4;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+      marrgin: 0;
+      letter-spacing: 4px;
+      overflow: hidden;
+    }
+
+    .temp .btn_cd a:hover {
+      background: #03e9f4;
+      color: #050801;
+      box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 200px #03e9f4;
+    }
+
+    .button-transform {
+      background: #fc160b;
+      color: #050801;
+      box-shadow: 0 0 5px #fc160b,
+      0 0 25px #fc160b,
+      0 0 50px #fc160b,
+      0 0 200px #fc160b;
+    }
+
+    .btn_cd a:nth-child(1) {
+      /*filter: hue-rotate(270deg);*/
+    }
+
+    .btn_cd a span {
+      position: absolute;
+      display: block;
+    }
+
+    .btn_cd a span:nth-child(1) {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #03e9f4);
+      animation: animate1 1s linear infinite;
+    }
+
+    @keyframes animate1 {
+      0% {
+        left: -100%;
+      }
+      50%, 100% {
+        left: 100%;
+      }
+    }
+
+    /* end config button*/
+
+    .no-genres-subcontent {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .no-genres-subcontent a {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-scroller">
+  <div th:replace="/Admin/fragment/nav.html">
+  </div>
+  <div class="container-fluid page-body-wrapper">
+    <!--    load theme setting-->
+    <div th:replace="/Admin/fragment/theme-setting.html">
+    </div>
+    <!--    load setting sidebar-->
+    <div th:replace="/Admin/fragment/slide-bars-setting.html">
+    </div>
+    <!--    Load side bar-->
+    <div th:replace="/Admin/fragment/side-bar.html">
+    </div>
+
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <th:block th:if="${ genresList.size()==0 || genresList ==null }">
+          <h1> No Genres Available</h1>
+          <div class="row" id="NoGenresLoaded">
+            <div class="col-12">
+              <div class="no-genres-subcontent temp">
+                <p>OOPS, MAY BE BECAUSE OF EMPTY DATABASE,OR IN SOME CASE THE DATA IS NOT AVAILABLE
+                </p>
+                <b>CLICK HERE TO LOAD GENRES</b>
+                <div class="btn_cd">
+                  <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Load To Database
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th:block>
+        <h1 th:text="${@thymeLeafExtension.getHello()}"></h1>
+        <th:block th:if="${ genresList.size()!=0 }">
+          <div class="row">
+            <div class="col-lg-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Fiction</h4>
+                  <p class="card-description">
+                    Sub Genres
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Updated At</th>
+                        <th>Created At</th>
+                        <th>Status</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <th:block th:each="f: ${fiction}">
+                        <tr>
+                          <td th:text="${f.getName()}"></td>
+                          <td th:text="${#dates.format(f.getUpdatedAt(), 'dd-MM-yyyy')}">Jun 21,
+                            2017
+                          </td>
+                          <td th:text="${#dates.format(f.getCreatedAt(), 'dd-MM-yyyy')}">Jun 21,
+                            2017
+                          </td>
+                          <td><label class="badge badge-success">Activated</label></td>
+                        </tr>
+                      </th:block>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">No Fiction</h4>
+                  <p class="card-description">
+                    Sub Genres
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Updated At</th>
+                        <th>Created At</th>
+                        <th>Status</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <th:block th:each="nf: ${noFiction}">
+                        <tr>
+                          <td th:text="${nf.getName()}"></td>
+                          <td th:text="${#dates.format(nf.getUpdatedAt(), 'dd-MM-yyyy')}">Jun 21,
+                            2017
+                          </td>
+                          <td th:text="${#dates.format(nf.getCreatedAt(), 'dd-MM-yyyy')}">Jun 21,
+                            2017
+                          </td>
+                          <td><label class="badge badge-success">Activated</label></td>
+                        </tr>
+                      </th:block>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th:block>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div aria-hidden="true" aria-labelledby="basicModal" class="modal fade" id="smallModal"
+     role="dialog"
+     tabindex="-1">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Small Modal</h4>
+        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>Modal Body</h3>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+        <button class="btn btn-primary" id="submitLoad" type="button">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/Admin/vendors/js/vendor.bundle.base.js"></script>
+<script src="/Admin/js/off-canvas.js"></script>
+<script src="/Admin/js/hoverable-collapse.js"></script>
+<script src="/Admin/js/template.js"></script>
+<script src="/Admin/js/settings.js"></script>
+<script src="/Admin/js/todolist.js"></script>
+
+<script th:src="@{/index.js}"></script>
+<script>
+  let buttonLink;
+  let submitBtn;
+  let buttonLoad = document.getElementsByClassName("btn_cd")[0];
+  if(buttonLoad){
+    buttonLink = buttonLoad.getElementsByTagName("a")[0];
+    submitBtn = document.getElementById("submitLoad");
+    buttonLink.onclick = () => {
+      $("#smallModal").modal('show');
+    }
+
+
+    submitBtn.onclick = () => {
+      $("#smallModal").modal('hide');
+      functionOnLoadGenres();
+      setTimeout(function () {
+        sendData(`${server}/admin/seed-genres`,
+            {method: "POST", headers: {'Content-Type': 'application/json'}, body: {}},
+            `/admin/loadGenres`);
+      }, 5000)
+    }
+  }
+
+  const functionOnLoadGenres = () => {
+    buttonLink.innerHTML = `
+         <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   Loading...
+    `;
+    let spanTag = buttonLink.getElementsByTagName(
+        "SPAN")[0];
+    $('#smallModal').modal({
+      backdrop: 'static',
+      keyboard: false
+    });
+    spanTag.style.background = "linear-gradient(90deg, transparent, #fc160b)"
+    buttonLink.classList.remove("temp");
+    buttonLink.classList.add('button-transform');
+    console.log(buttonLink)
+    buttonLink.onclick = () => {
+      $("#smallModal").modal('show');
+    }
+  }
+
+  const showMyModal = (id) => {
+    $('#' + id).modal('show');
+  };
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,614 @@
+[
+  {
+    "bookName": "Harrow the Ninth",
+    "bookAuthor": "Tamsyn Muir",
+    "bookPrice": "$19.99 $18.59",
+    "linkDetail": "https://bookshop.org/books/harrow-the-ninth/9781250313218",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "April 26, 2022",
+        "Publisher": "Redhook",
+        "Pages": "496",
+        "Dimensions": "6.2 X 9.3 X 1.8 inches | 1.6 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Vaishnavi Patel",
+        "about": "Vaishnavi Patel is a law student focusing on constitutional law and civil rights. She likes to write at the intersection of Indian myth, feminism, and anti-colonialism. Her short stories can be found in The Dark and 87 Bedford's Historical Fantasy Anthology along with a forthcoming story in Helios Quarterly. Vaishnavi grew up in and around Chicago, and in her spare time, enjoys activities that are almost stereotypically Midwestern: knitting, ice skating, drinking hot chocolate, and making hotdish."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780759557338.jpg?height=500&v=v2-3ab2f00cb40a1b621de94b60e5e68a06"
+    }
+  },
+  {
+    "bookName": "By the Book (a Meant to Be Novel): A Meant to Be Novel",
+    "bookAuthor": "Jasmine Guillory",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/by-the-book-a-meant-to-be-novel-a-meant-to-be-novel/9781368053389",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.87",
+        "sale": "$15.99",
+        "PublishDate": "May 03, 2022",
+        "Publisher": "Hyperion Avenue",
+        "Pages": "320",
+        "Dimensions": "6.13 X 9.02 X 0.65 inches | 0.93 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Jasmine Guillory",
+        "about": "Jasmine Guillory is a New York Times bestselling author of novels including The Wedding Date, the Reese's Book Club selection The Proposal, and While We Were Dating. Her work has appeared in the Wall Street Journal, Cosmopolitan, Bon Appétit, and Time, and she is a frequent book contributor on the Today show. She lives in Oakland, California."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781368053389.jpg?height=500&v=v2-30738cf1d921b849654c61f4c40c4a1d"
+    }
+  },
+  {
+    "bookName": "Nettle & Bone",
+    "bookAuthor": "T. Kingfisher",
+    "bookPrice": "$25.99 $24.17",
+    "linkDetail": "https://bookshop.org/books/nettle-bone-9781250876195/9781250244048",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.59",
+        "sale": "$19.99",
+        "PublishDate": "September 21, 2021",
+        "Publisher": "Tordotcom",
+        "Pages": "560",
+        "Dimensions": "5.4 X 8.0 X 1.5 inches | 1.05 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": [
+          "BOOK 1: ",
+          "BOOK 2: ",
+          "BOOK 3: ",
+          "BOOK 4: "
+        ]
+      },
+      "Author": {
+        "name": "Tamsyn Muir",
+        "about": "TAMSYN MUIR is the bestselling author of the Locked Tomb Series. Her fiction has won the Locus and Crawford awards, and been nominated for the Hugo Award, the Nebula Award, the Shirley Jackson Award, the World Fantasy Award, the Dragon Award, and the Eugie Foster Memorial Award. A Kiwi, she has spent most of her life in Howick, New Zealand, with time living in Waiuku and central Wellington. She currently lives and works in Oxford, in the United Kingdom"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250313218.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Kaikeyi",
+    "bookAuthor": "Vaishnavi Patel",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/kaikeyi-9780759557338/9780759557338",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$24.17",
+        "sale": "$25.99",
+        "PublishDate": "April 26, 2022",
+        "Publisher": "Tor Books",
+        "Pages": "256",
+        "Dimensions": "5.4 X 8.4 X 1.1 inches | 0.7 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          "It's the one where she kills him.",
+          "--build a dog of bones",
+          "--sew a cloak of nettles",
+          "--capture moonlight in a jar "
+        ]
+      },
+      "Author": {
+        "name": "T. Kingfisher",
+        "about": "T. KINGFISHER writes fantasy, horror, and occasional oddities, including The Twisted Ones and Swordheart. Under a pen name, she also writes children's books. She lives in North Carolina."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250244048.jpg?height=500&v=v2-f582601ea6d499ef015224efdb67a455"
+    }
+  },
+  {
+    "bookName": "Under the Whispering Door",
+    "bookAuthor": "Tj Klune",
+    "bookPrice": "$26.99 $25.10",
+    "linkDetail": "https://bookshop.org/books/under-the-whispering-door/9781250217349",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$25.10",
+        "sale": "$26.99",
+        "PublishDate": "September 21, 2021",
+        "Publisher": "Tor Books",
+        "Pages": "384",
+        "Dimensions": "5.73 X 8.51 X 1.25 inches | 0.97 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": [
+          "A Man Called Ove"
+        ]
+      },
+      "Author": {
+        "name": "Tj Klune",
+        "about": "TJ KLUNE is the New York Times and USA Today bestselling, Lambda Literary Award-winning author of The House in the Cerulean Sea, The Extraordinaries, and more. Being queer himself, Klune believes it's important--now more than ever--to have accurate, positive queer representation in stories."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250217349.jpg?height=500&v=v2-082cef609fcef3a142462905a6a6ede4"
+    }
+  },
+  {
+    "bookName": "A Court of Frost and Starlight",
+    "bookAuthor": "Sarah J. Maas",
+    "bookPrice": "$16.00 $14.88",
+    "linkDetail": "https://bookshop.org/books/a-court-of-frost-and-starlight/9781635575620",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.88",
+        "sale": "$16.00",
+        "PublishDate": "June 02, 2020",
+        "Publisher": "Bloomsbury Publishing",
+        "Pages": "272",
+        "Dimensions": "5.5 X 8.25 X 0.8 inches | 0.5 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Sarah J. Maas",
+        "about": "Sarah J. Maas is the #1 New York Times and internationally bestselling author of the Court of Thorns and Roses and the Crescent City series, as well as the Throne of Glass series. Her books are published in more than thirty-seven languages. A New York native, Sarah lives in Pennsylvania with her husband, son, and dog."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781635575620.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Grandmaster of Demonic Cultivation: Mo DAO Zu Shi (Novel) Vol. 3",
+    "bookAuthor": "Mo Xiang Tong Xiu and Marina Privalova",
+    "bookPrice": "$19.98 $18.58",
+    "linkDetail": "https://bookshop.org/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-3/9781638581567",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "September 27, 2022",
+        "Publisher": "Del Rey Books",
+        "Pages": "416",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Naomi Novik",
+        "about": "Naomi Novik is the New York Times bestselling author of A Deadly Education and The Last Graduate, the award-winning novels Uprooted and Spinning Silver, and the Temeraire series. She is a founder of the Organization for Transformative Works and the Archive of Our Own. She lives in New York City with her family and six computers."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593158357.jpg?height=500&v=v2-275565e4231399778404b8cd9088f25e"
+    }
+  },
+  {
+    "bookName": "The Golden Enclaves",
+    "bookAuthor": "Naomi Novik",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/the-golden-enclaves/9780593158357",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.58",
+        "sale": "$19.98",
+        "PublishDate": "August 16, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "416",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Mo Xiang Tong Xiu Marina Privalova",
+        "about": "Mo Xiang Tong Xiu (MXTX) is a globally renowned and New York Times' bestselling author whose works are often cited as the most well-known of the modern danmei genre. Originally self-published in Chinese via the novel serialization website, JJWXC, her current titles include The Scum Villain's Self-Saving System, Grandmaster of Demonic Cultivation, and Heaven Official's Blessing, all available in English from Seven Seas. Her series have enormously popular multimedia adaptations and have been published in numerous languages around the world."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781638581567.jpg?height=500&v=v2-cc9c5d0d94848fc67277d6877e2b65f5"
+    }
+  },
+  {
+    "bookName": "A Court of Wings and Ruin",
+    "bookAuthor": "Sarah J. Maas",
+    "bookPrice": "$18.00 $16.74",
+    "linkDetail": "https://bookshop.org/books/a-court-of-wings-and-ruin-9781619635203/9781635575606",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.74",
+        "sale": "$18.00",
+        "PublishDate": "June 02, 2020",
+        "Publisher": "Bloomsbury Publishing",
+        "Pages": "736",
+        "Dimensions": "5.5 X 8.2 X 2.1 inches | 1.25 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Sarah J. Maas",
+        "about": "Sarah J. Maas is the #1 New York Times and internationally bestselling author of the Court of Thorns and Roses, Throne of Glass, and Crescent City series. Her books have sold more than nine million copies and are published in thirty-seven languages. A New York native, Sarah lives in Pennsylvania with her husband, son, and dog. sarahjmaas.comfacebook.com/theworldofsarahjmaasinstagram.com/therealsjmaas"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781635575606.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Fifth Season",
+    "bookAuthor": "N K Jemisin",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-fifth-season/9780316229296",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "July 27, 2021",
+        "Publisher": "Orbit",
+        "Pages": "480",
+        "Dimensions": "6.1 X 8.7 X 1.4 inches | 1.1 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "N K Jemisin",
+        "about": "N. K. Jemisin is the first author in history to win three consecutive Best Novel Hugo Awards, all for her Broken Earth trilogy. Her work has also won the Nebula, Locus, and Goodreads Choice Awards. She has been a reviewer for the New York TimesBook Review, and an instructor for the Clarion and Clarion West writing workshops. In her spare time, she is a gamer and gardener, and she is also single-handedly responsible for saving the world from King Ozzymandias, her dangerously intelligent ginger cat, and his phenomenally destructive sidekick Magpie."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316509886.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The City We Became",
+    "bookAuthor": "N K Jemisin",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-city-we-became/9780316509886",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "May 17, 2022",
+        "Publisher": "Orbit",
+        "Pages": "480",
+        "Dimensions": "5.7 X 8.8 X 1.7 inches | 1.45 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Chelsea Abdullah",
+        "about": "Chelsea Abdullah is an American-Kuwaiti writer born and raised in Kuwait, where she grew up listening to stories about mysterious desert creatures and wily (only sometimes likable) heroes. Consumed by wanderlust, she has put down roots in various states. After earning her MA in English at Duquesne University, she moved to New York, where she currently lives. When not immersed in her own fictional worlds, she spends her free time playing video games, doodling characters, and hoarding books she doesn't have the shelf space for."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316368766.jpg?height=500&v=v2-8a58e3fde2f41933767f66ef8469c5e4"
+    }
+  },
+  {
+    "bookName": "The Stardust Thief",
+    "bookAuthor": "Chelsea Abdullah",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/the-stardust-thief-9780316368865/9780316368766",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "August 04, 2015",
+        "Publisher": "Orbit",
+        "Pages": "512",
+        "Dimensions": "5.4 X 8.1 X 1.4 inches | 0.9 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "N K Jemisin",
+        "about": "N. K. Jemisin is a Brooklyn author who won the Hugo Award for Best Novel for The Fifth Season, which was also a New York Times Notable Book of 2015. She previously won the Locus Award for her first novel, The Hundred Thousand Kingdoms, and her short fiction and novels have been nominated multiple times for Hugo, World Fantasy, Nebula, and RT Reviewers' Choice awards, and shortlisted for the Crawford and the James Tiptree, Jr. awards. She is a science fiction and fantasy reviewer for the New York Times, and you can find her online at nkjemisin.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316229296.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Grandmaster of Demonic Cultivation: Mo DAO Zu Shi (Novel) Vol. 2",
+    "bookAuthor": "Mo Xiang Tong Xiu and Marina Privalova",
+    "bookPrice": "$19.99 $18.59",
+    "linkDetail": "https://bookshop.org/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-2/9781648279201",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$17.66",
+        "sale": "$18.99",
+        "PublishDate": "June 14, 2022",
+        "Publisher": "Tordotcom",
+        "Pages": "144",
+        "Dimensions": "5.4 X 8.4 X 0.9 inches | 0.53 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Alix E. Harrow",
+        "about": "A former academic and adjunct, Alix E. Harrow is now a full-time writer living in Virginia with her husband and their semi-feral toddlers. In 2019 she won a Hugo Award for her short fiction and published her first novel, The Ten Thousand Doors of January."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781250766649.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Dune Messiah",
+    "bookAuthor": "Frank Herbert",
+    "bookPrice": "$9.99 $9.29",
+    "linkDetail": "https://bookshop.org/books/dune-messiah/9780593098233",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$18.59",
+        "sale": "$19.99",
+        "PublishDate": "May 17, 2022",
+        "Publisher": "Seven Seas",
+        "Pages": "412",
+        "Dimensions": "5.9 X 8.4 X 1.4 inches | 1.3 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Mo Xiang Tong Xiu Marina Privalova",
+        "about": "Mo Xiang Tong Xiu (MXTX) is a globally renowned and New York Times' bestselling author whose works are often cited as the most well-known of the modern danmei genre. Originally self-published in Chinese via the novel serialization website, JJWXC, her current titles include The Scum Villain's Self-Saving System, Grandmaster of Demonic Cultivation, and Heaven Official's Blessing, all available in English from Seven Seas. Her series have enormously popular multimedia adaptations and have been published in numerous languages around the world."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781648279201.jpg?height=500&v=v2-b24a12de19103a37064550e42db6e301"
+    }
+  },
+  {
+    "bookName": "A Court of Silver Flames",
+    "bookAuthor": "Sarah J. Maas",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/a-court-of-silver-flames/9781681196282",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "February 16, 2021",
+        "Publisher": "Bloomsbury Publishing",
+        "Pages": "768",
+        "Dimensions": "6.4 X 9.3 X 2.1 inches | 2.15 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Sarah J. Maas",
+        "about": "Sarah J. Maas is the #1 New York Times and internationally bestselling author of the Court of Thorns and Roses, Throne of Glass, and Crescent City series. Her books have sold more than nine million copies and are published in thirty-seven languages. A New York native, Sarah lives in Pennsylvania with her husband, son, and dog. sarahjmaas.comfacebook.com/theworldofsarahjmaasinstagram.com/therealsjmaas"
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781681196282.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "A Mirror Mended",
+    "bookAuthor": "Alix E. Harrow",
+    "bookPrice": "$18.99 $17.66",
+    "linkDetail": "https://bookshop.org/books/a-mirror-mended/9781250766649",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$9.29",
+        "sale": "$9.99",
+        "PublishDate": "June 04, 2019",
+        "Publisher": "Ace Books",
+        "Pages": "352",
+        "Dimensions": "4.4 X 0.9 X 7.5 inches | 0.46 pounds",
+        "Languages": "English",
+        "Type": "Mass Market Paperbound",
+        "description": []
+      },
+      "Author": {
+        "name": "Frank Herbert",
+        "about": "Frank Herbert was the bestselling author of the Dune saga. He was born in Tacoma, Washington, and educated at the University of Washington, Seattle. He worked a wide variety of jobs--including TV cameraman, radio commentator, oyster diver, jungle survival instructor, lay analyst, creative writing teacher, reporter and editor of several West Coast newspapers--before becoming a full-time writer. In 1952, Herbert began publishing science fiction with \"Looking for Something?\" in Startling Stories. But his emergence as a writer of major stature did not occur until 1965, with the publication of Dune. Dune Messiah, Children of Dune, God Emperor of Dune, Heretics of Dune, and Chapterhouse: Dune followed, completing the saga that the Chicago Tribune would call \"one of the monuments of modern science fiction.\" Herbert was also the author of some twenty other books, including The White Plague, The Dosadi Experiment, and Destination: Void. He died in 1986."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780593098233.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "How to Be Eaten",
+    "bookAuthor": "Maria Adelmann",
+    "bookPrice": "$28.00 $26.04",
+    "linkDetail": "https://bookshop.org/books/how-to-be-eaten/9780316450843",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$14.87",
+        "sale": "$15.99",
+        "PublishDate": "June 07, 2022",
+        "Publisher": "Sourcebooks Casablanca",
+        "Pages": "400",
+        "Dimensions": "5.47 X 8.14 X 1.1 inches | 0.84 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Katee Robert",
+        "about": "Katee Robert is a New York Times and USA Today bestselling author of contemporary romance and romantic suspense. Entertainment Weekly calls her writing unspeakably hot and her books have sold over a million copies. She currently resides with her husband, children, a cat who thinks he's a dog, and two Great Danes who think they're lap dogs in the Pacific Northwest."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781728231792.jpg?height=500&v=v2-37679644575574e86d6e66b109ea4788"
+    }
+  },
+  {
+    "bookName": "Wicked Beauty",
+    "bookAuthor": "Katee Robert",
+    "bookPrice": "$15.99 $14.87",
+    "linkDetail": "https://bookshop.org/books/wicked-beauty-9781666583175/9781728231792",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$15.81",
+        "sale": "$17.00",
+        "PublishDate": "May 31, 2022",
+        "Publisher": "Penguin Books",
+        "Pages": "448",
+        "Dimensions": "5.4 X 8.1 X 1.1 inches | 0.71 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": {}
+      },
+      "Author": {
+        "name": "Juno Dawson",
+        "about": "Juno Dawson is a bestselling novelist, screenwriter, and journalist. Juno's books include the global bestsellers, This Book is Gay and Clean. She also writes for television and has multiple shows in development both in the UK and US. An occasional actress and model, Juno appeared on HBO's I May Destroy You. This is her adult debut."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780143137146.jpg?height=500&v=v2-3ee041dd77ec469fe4242a385f7beb92"
+    }
+  },
+  {
+    "bookName": "For the Throne",
+    "bookAuthor": "Hannah Whitten",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/for-the-throne/9780316592819",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "June 07, 2022",
+        "Publisher": "Orbit",
+        "Pages": "496",
+        "Dimensions": "5.53 X 8.16 X 1.42 inches | 0.96 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Hannah Whitten",
+        "about": "Hannah Whitten has been writing to amuse herself since she could hold a pen, and sometime in high school, she figured out that what amused her might also amuse others. When she's not writing, she's reading, making music, or attempting to bake. She lives in Tennessee with her husband and children in a house ruled by a temperamental cat."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316592819.jpg?height=500&v=v2-5e98a83d8d248971c2ed230ee9ceb117"
+    }
+  },
+  {
+    "bookName": "Her Majesty's Royal Coven",
+    "bookAuthor": "Juno Dawson",
+    "bookPrice": "$17.00 $15.81",
+    "linkDetail": "https://bookshop.org/books/her-majesty-s-royal-coven/9780143137146",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.04",
+        "sale": "$28.00",
+        "PublishDate": "May 31, 2022",
+        "Publisher": "Little Brown and Company",
+        "Pages": "304",
+        "Dimensions": "6.0 X 9.3 X 1.3 inches | 1.1 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Maria Adelmann",
+        "about": "Maria Adelmann is the author of the short story collection Girls of a Certain Age, which explores the many impossible choices of modern girl and womanhood. Her work has been published by Tin House, n+1, Electric Literature, McSweeney's Internet Tendency, The Threepenny Review, the Indiana Review, Epoch, AQR, MQR, and many others, and has been selected by The Best American Short Stories as a distinguished story. You can follow her on Twitter or Instagram @ink176. How to Be Eaten is her first novel."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316450843.jpg?height=500&v=v2-e474f66a51087457dfcebe9159274703"
+    }
+  },
+  {
+    "bookName": "The Night and Its Moon",
+    "bookAuthor": "Piper Cj",
+    "bookPrice": "$18.98 $17.65",
+    "linkDetail": "https://bookshop.org/books/the-night-and-its-moon/9781728270678",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.96",
+        "sale": "$28.99",
+        "PublishDate": "June 28, 2022",
+        "Publisher": "Del Rey Books",
+        "Pages": "560",
+        "Dimensions": "5.9 X 9.3 X 1.7 inches | 1.75 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Robert Jackson Bennett",
+        "about": "Robert Jackson Bennett is the author of Foundryside, Shorefall, and the Divine Cities trilogy, which was a Hugo Award finalist in the Best Series category. The first book in the series, City of Stairs, was also a finalist for the World Fantasy and Locus Awards, and the second, City of Blades, was a finalist for the World Fantasy, Locus, and British Fantasy Awards. His previous novels, which include American Elsewhere and Mr. Shivers, have received the Edgar Award, the Shirley Jackson Award, and the Philip K. Dick Citation of Excellence. He lives in Austin with his family."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781984820679.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "The Obelisk Gate",
+    "bookAuthor": "N K Jemisin",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-obelisk-gate/9780316229265",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "August 16, 2016",
+        "Publisher": "Orbit",
+        "Pages": "448",
+        "Dimensions": "5.7 X 8.1 X 1.3 inches | 0.85 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "N K Jemisin",
+        "about": "N. K. Jemisin is a Brooklyn author who won the Hugo Award for Best Novel for The Fifth Season, which was also a New York Times Notable Book of 2015. She previously won the Locus Award for her first novel, The Hundred Thousand Kingdoms, and her short fiction and novels have been nominated multiple times for Hugo, World Fantasy, Nebula, and RT Reviewers' Choice awards, and shortlisted for the Crawford and the James Tiptree, Jr. awards. She is a science fiction and fantasy reviewer for the New York Times, and you can find her online at nkjemisin.com."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316229265.jpg?height=500&v=v2"
+    }
+  },
+  {
+    "bookName": "Juniper & Thorn",
+    "bookAuthor": "Ava Reid",
+    "bookPrice": "$27.99 $26.03",
+    "linkDetail": "https://bookshop.org/books/juniper-thorn/9780062973160",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$17.65",
+        "sale": "$18.98",
+        "PublishDate": "September 20, 2022",
+        "Publisher": "Bloom Books",
+        "Pages": "544",
+        "Dimensions": "",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Piper Cj",
+        "about": ""
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9781728270678.jpg?height=500&v=v2-08518008b01f8e7bd06af52c3deae2ee"
+    }
+  },
+  {
+    "bookName": "Locklands",
+    "bookAuthor": "Robert Jackson Bennett",
+    "bookPrice": "$28.99 $26.96",
+    "linkDetail": "https://bookshop.org/books/locklands/9781984820679",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$26.03",
+        "sale": "$27.99",
+        "PublishDate": "June 21, 2022",
+        "Publisher": "Harper Voyager",
+        "Pages": "320",
+        "Dimensions": "5.9 X 9.1 X 1.3 inches | 1.05 pounds",
+        "Languages": "English",
+        "Type": "Hardcover",
+        "description": []
+      },
+      "Author": {
+        "name": "Ava Reid",
+        "about": "Ava Reid was born in Manhattan and raised right across the Hudson River in Hoboken, but currently lives in Palo Alto. She has a degree in political science from Barnard College, focusing on religion and ethnonationalism."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780062973160.jpg?height=500&v=v2-056af64bed99a29b80f8fadd00000000"
+    }
+  },
+  {
+    "bookName": "The Once and Future Witches",
+    "bookAuthor": "Alix E. Harrow",
+    "bookPrice": "$17.99 $16.73",
+    "linkDetail": "https://bookshop.org/books/the-once-and-future-witches/9780316422017",
+    "bookDetail": {
+      "bookDetail": {
+        "price": "$16.73",
+        "sale": "$17.99",
+        "PublishDate": "September 28, 2021",
+        "Publisher": "Redhook",
+        "Pages": "544",
+        "Dimensions": "5.4 X 8.2 X 1.5 inches | 1.18 pounds",
+        "Languages": "English",
+        "Type": "Paperback",
+        "description": []
+      },
+      "Author": {
+        "name": "Alix E. Harrow",
+        "about": "Alix E. Harrow is an ex-historian with lots of opinions and excessive library fines, currently living in Kentucky with her husband and their semi-feral children. She won a Hugo for her short fiction, and has been nominated for the Nebula, Locus, and World Fantasy awards. Find her at @AlixEHarrow on Twitter."
+      },
+      "bookImage": "https://images-us.bookshop.org/ingram/9780316422017.jpg?height=500&v=v2-24ef3dab49be0bb41be37902cb2201fe"
+    }
+  }
+]
