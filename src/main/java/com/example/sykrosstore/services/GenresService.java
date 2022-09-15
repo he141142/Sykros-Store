@@ -3,6 +3,7 @@ package com.example.sykrosstore.services;
 import com.example.sykrosstore.Repositories.GenresRepository;
 import com.example.sykrosstore.constants.Folderpath;
 import com.example.sykrosstore.constants.ServerResponse.Success.GenresController.GenresMessage;
+import com.example.sykrosstore.controller.RestfulApi.dto.GenresDto;
 import com.example.sykrosstore.dto.GenresLoader;
 import com.example.sykrosstore.entities.Genres;
 import com.example.sykrosstore.entities.Subgenres;
@@ -76,4 +77,21 @@ public class GenresService implements IGenresService {
     GenresLoader genresLoader = new GenresLoader((ArrayList<Genres>) allGenres);
     return genresLoader;
   }
+
+  @Override
+  public List<GenresDto> loadGenresFrontEnd(){
+    GenresLoader genresLoader = this.getGenresReadyModel();
+    List<GenresDto> genresDtoList =  genresLoader.getGenresArrayList().stream().map(
+        genres->{
+          GenresDto genresDto = new GenresDto(genres.getName());
+          List<String> subGenres =  genres.getSubgenres().stream().map(
+              subgenres -> subgenres.getName()
+          ).collect(Collectors.toList());
+          genresDto.setSubGenresName((ArrayList<String>) subGenres);
+          return genresDto;
+        }
+    ).collect(Collectors.toList());
+    return genresDtoList;
+  }
+
 }

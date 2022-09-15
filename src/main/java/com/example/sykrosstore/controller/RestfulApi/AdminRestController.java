@@ -1,8 +1,13 @@
 package com.example.sykrosstore.controller.RestfulApi;
 
 import com.example.sykrosstore.constants.ServerResponse.CustomResponseEntity;
+import com.example.sykrosstore.controller.RestfulApi.dto.GenresDto;
+import com.example.sykrosstore.dto.GenresLoader;
 import com.example.sykrosstore.services.Interfaces.BookService;
 import com.example.sykrosstore.services.Interfaces.IGenresService;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,4 +30,11 @@ public class AdminRestController {
     this.bookService.loadBooks();
     return null;
   }
+
+
+  @PostMapping("/load-genres")
+  public List<GenresDto> loadGenres(){
+     return this.genresService.loadGenresFrontEnd();
+  }
+
 }
