@@ -10,4 +10,3 @@ function create_database() {
     GRANT ALL PRIVILEGES ON DATABASE $database TO $POSTGRES_USER;
 EOSQL
 }
-git

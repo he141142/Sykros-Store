@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Data
 @Entity(name = "user_role")
-public class UserRoles {
+public class UserRoles  extends BaseEntity{
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

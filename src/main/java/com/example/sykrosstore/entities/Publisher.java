@@ -18,7 +18,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Publisher {
+public class Publisher  extends BaseEntity{
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

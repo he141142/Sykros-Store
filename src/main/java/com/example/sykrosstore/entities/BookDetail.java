@@ -4,7 +4,7 @@ import java.util.Date;
 import lombok.Data;
 
 @Data
-public class BookDetail {
+public class BookDetail  {
   double price;
   double sale;
   Date PublishDate;

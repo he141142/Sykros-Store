@@ -9,7 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class BookImages {
+public class BookImages  extends BaseEntity{
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   Long id;

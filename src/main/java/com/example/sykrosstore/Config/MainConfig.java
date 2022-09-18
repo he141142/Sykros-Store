@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@Import({MVCConfig.class,SecurityConfig.class,ThymeleafConfiguration.class})
 public class MainConfig {
 
   @Autowired
